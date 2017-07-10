@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:backgroundTint="@color/colorPrimary"
+    tools:context="fr.cesgenslab.brainbot.homeActivity">
+
+    <ImageView
+        android:id="@+id/imageViewDossier"
+        android:layout_width="121dp"
+        android:layout_height="105dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="34dp"
+        android:clickable="true"
+        android:src="@drawable/rond"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewInformation"
+        android:layout_width="120dp"
+        android:layout_height="117dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="37dp"
+        android:background="@color/colorPrimary"
+        android:clickable="true"
+        android:src="@drawable/carre"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewDossier" />
+
+    <ImageView
+        android:id="@+id/imageViewJeux"
+        android:layout_width="117dp"
+        android:layout_height="107dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="47dp"
+        android:clickable="true"
+        android:src="@drawable/triangle"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewInformation" />
+
+    <ImageView
+        android:id="@+id/imageViewQuestion"
+        android:layout_width="118dp"
+        android:layout_height="105dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        android:src="@drawable/couronne"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewJeux"
+        app:layout_constraintVertical_bias="0.551" />
+
+</android.support.constraint.ConstraintLayout>

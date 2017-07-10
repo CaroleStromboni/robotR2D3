@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#d1c900</color>
+    <color name="colorformulaire">#ea5b0c</color>
+    <color name="colorDossier">#d1c900</color>
+    <color name="colorJeux">#5e3562</color>
+</resources>
